@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+updateCheck="false">
+<diskStore path = "/encach"/>
+    <defaultCache
+            name="smsCode"
+            eternal="false"
+            diskPersistent="false"
+            maxElementsInMemory="1000"
+            overflowToDisk="false"
+            timeToIdleSeconds="60"
+            timeToLiveSeconds="60"
+            memoryStorsEvictionPolicy="LRU"/>
+</encach>
